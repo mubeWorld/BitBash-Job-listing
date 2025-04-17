@@ -1,0 +1,136 @@
+.flex-row-spaced{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-self: center;
+gap: 10px;
+}
+.flex-row{
+display: flex ;
+flex-wrap: wrap;
+gap: 10px;
+}
+.flex-column{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: start; */
+    /* align-items: start; */
+    gap :10px
+}
+.flex-column-evenly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    }
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.job-li{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      padding: 1rem;
+      margin: .8rem 0;
+      border: 1px solid #d9dcec;
+      background-color: #fff;
+      position: relative;
+      
+      border-radius: .5rem;
+     width: 900px;
+     height: 100px;
+
+}
+.data{
+    
+}
+.job-title{
+    font-size: 1rem;
+    text-align: left;
+    /* width: 100%; */
+    white-space: break-all;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #00157e;
+}
+.job-company{
+    font-size: .9rem;
+    text-decoration: none;
+    color: rgba(0, 21, 126, .6);
+    font-weight: 500;
+    margin: .5rem 0 .65rem;
+}
+.badge{
+    padding: 4px 6px;
+    border-radius: 4px;
+    /* background: rgba(0, 21, 126, .1); */
+    font-size: .8rem;
+    /* line-height: .875rem; */
+    vertical-align: center;
+    text-decoration: none;
+    color: #00157e;
+    z-index: 1;
+}
+.country{
+    background: rgba(0, 21, 126, .1);
+}
+.salary{
+    background-color: rgba(14, 195, 189, .4);
+}
+.location{
+   
+    background-color: #00ff4c6a;
+}
+.tag{
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    padding: 3px;
+    color: #111;
+    background: #fff;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: transparent;
+    background-clip: border-box;
+    z-index: 1;
+}
+.right{
+
+}
+.badges-container{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+    /* border: 1px solid red; */
+    gap: 10px;
+    /* width: 300px; */
+    height: 20px;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    /* border: 2px solid red; */
+}
+.tags-container{
+    flex-direction: row-reverse;
+    align-content: center;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}

@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, #00c271 20%, #00657a 43%, #00367e 60%);
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+    box-shadow: 0 4px 12px 0 rgba(0, 21, 126, .15);
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+.flex-row{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigators{
+    padding: 15px;
+    gap:30px;
+    font-weight: 900;
+    color: #ffff;
+}
+/* .{
+but
+} */
+.nav-links{
+    width: 1280px;
+}

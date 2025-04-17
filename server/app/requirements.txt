@@ -1,0 +1,9 @@
+flask
+sqlalchemy
+psycopg2-binary
+flask_sqlalchemy
+selenium
+apscheduler
+webdriver-manager
+schedule
+flask-cors
